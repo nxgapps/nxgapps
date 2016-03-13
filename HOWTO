@@ -1,0 +1,9 @@
+QuickStart:
+
+    git clone https://github.com/nxgapps/nxgapps.git -b android-5.1 gapps;
+    cd gapps;
+    make clean; (Remove output)
+    make arm; (If you want compile signed flashable NX GApps package for arm)
+    make arm64; (If you want compile signed flashable NX GApps package for arm64)
+    make x86; (If you want compile signed flashable NX GApps package for x86)
+    make x86_64; (If you want compile signed flashable NX GApps package for x86_64)
